@@ -8,7 +8,7 @@ Python version 3.8
 ROOT version 6.30.04
 
 Begin by creating a Python environment from within a MATLAB session with the command:
-*pyenv(Version=<pathtoPython>)*
+*pyenv(Version=pathtoPython)*
 You will also need to know the path to your ROOT installation to execute the thisroot.bat script.
 
 The main entry point is the MATLAB script *root2struct.mlx*
