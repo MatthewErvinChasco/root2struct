@@ -1,5 +1,5 @@
 The MATLAB code runs Python to use PyROOT for extracting data from a ROOT file.
-Running this package requires the compatibility of three platforms: MATLAB, Python, and ROOT.
+Running this package requires the compatibility of three platforms: MATLAB, Python, and ROOT. The version for each platform used here is listed below:
 
 MATLAB version R2021b
 
