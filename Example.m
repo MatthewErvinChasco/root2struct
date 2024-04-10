@@ -1,14 +1,10 @@
 %% Generate a ROOT file to work with
 
-orig = pwd
-cd('C:\root_v6.30.04\bin\')
 try
-    !thisroot.bat
-    pyrunfile(orig+"\hsimple2.py")
+    [status,cmdout] = system("C:\root_v6.30.04\bin\thisroot.bat & py -3.8 ./hsimple2.py","-echo")
 catch Merr
     disp(Merr.message)
 end
-cd(orig)
 %% Run main file to import ROOT file data into MATLAB
 
 root2struct
